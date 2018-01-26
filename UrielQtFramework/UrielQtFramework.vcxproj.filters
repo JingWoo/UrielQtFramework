@@ -1,0 +1,1358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{c049b0a8-8f24-4951-b670-32d4797c360c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ee1446d9-f9ab-4df5-bf81-0cf75001909b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Program Entry Point">
+      <UniqueIdentifier>{17f5375e-8fb0-473d-bec8-6de82b3dc738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Option Settings">
+      <UniqueIdentifier>{3168a287-1d25-4609-89f9-c284eed0247b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultiThreading">
+      <UniqueIdentifier>{e2b3570d-85cd-4c92-a15a-03f88fc10556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultiThreading\Image Process">
+      <UniqueIdentifier>{bc97c18f-9395-498d-a530-c20dec7ac1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulate Word Document">
+      <UniqueIdentifier>{c7849710-3115-4ce7-93b9-e4440f52b80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Libraries">
+      <UniqueIdentifier>{cbe624e2-65d2-4a8e-8e2a-f6b811676c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Libraries\QCustomPlot">
+      <UniqueIdentifier>{c915daf5-0007-46f7-ad86-2d6fee860911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface">
+      <UniqueIdentifier>{462d83b7-6b3f-4ee6-afeb-5da09b64a81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\MainWindow">
+      <UniqueIdentifier>{be62906d-59f4-47f4-a525-f97e1b6dd59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Definition">
+      <UniqueIdentifier>{f957240d-1869-4949-a7af-c58cd2d8e7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\Login">
+      <UniqueIdentifier>{23fdad8b-5687-4e6f-b025-2aae09f6ec5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\New User Registration">
+      <UniqueIdentifier>{d113401f-32fb-48e8-bf54-f5d41d0ec0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\New User Registration\UserRegisterFirstStep">
+      <UniqueIdentifier>{425a1670-7006-473a-863a-84b5ffae28b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\New User Registration\UserRegisterSecondStep">
+      <UniqueIdentifier>{d9b02b4e-fbc8-4410-8060-dc233685e64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\New User Registration\UserRegisterThirdStep">
+      <UniqueIdentifier>{4142a6a4-c042-4215-ba85-b981ff4d114e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\New User Registration\UserRegisterLastStep">
+      <UniqueIdentifier>{1035f929-cd83-4f4b-b91d-15f6b42c80bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\Expense">
+      <UniqueIdentifier>{8242b7ec-2ca2-4791-bcca-c3ea86b80b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\Expense\InvoiceInfo">
+      <UniqueIdentifier>{cc64760d-53d9-416f-b3ad-6537f0758a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\Expense\Cash Payment Certificate">
+      <UniqueIdentifier>{2d66ce35-a31b-48ca-be59-bbf92b0b4ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\Expense\Travel Expense Approval">
+      <UniqueIdentifier>{82d6f019-86a5-462b-8ee0-235e7a8d1638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\Expense\ExpenseItem">
+      <UniqueIdentifier>{6048bec3-4853-48a9-89f9-c399dcd2ddd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\HomePage">
+      <UniqueIdentifier>{1ba4b340-e757-4380-a0d9-0c0468271572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\HomePage\ReleasingNotices">
+      <UniqueIdentifier>{b2203130-1b9e-4d58-9ca8-7e3f9f95a42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\HomePage\NoticesListMenuItem">
+      <UniqueIdentifier>{f4d7aa4b-d7e6-4807-8da2-a24d3e06cd13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\HomePage\TimeFilter">
+      <UniqueIdentifier>{cab9ed68-7fec-48e5-be1f-c5c559f9f7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model">
+      <UniqueIdentifier>{d275f298-9b19-4fac-ac41-7a977e358447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\NoticesMenuTreeModel">
+      <UniqueIdentifier>{67325072-106a-4051-a9e2-49ea255da13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\NoticesMenuTableModel">
+      <UniqueIdentifier>{c3070d7e-d9d9-41ab-bc9c-82e90583033a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulate File">
+      <UniqueIdentifier>{69805621-64db-41a9-ab79-8e4c46b9cbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulate File\FTP">
+      <UniqueIdentifier>{557d380e-dfdd-45c0-b4f5-0b6a09db5eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\HomePage\NoticesCommentItem">
+      <UniqueIdentifier>{ea15fdf5-3a53-4903-865e-66f392d0bce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\UserInfo">
+      <UniqueIdentifier>{d07cae9f-7391-46e1-8767-dd98d1ae1aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\InstrumentTableModel">
+      <UniqueIdentifier>{2dc5d97e-b322-4bd8-97bf-4f2d94c2641a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\DevicePage">
+      <UniqueIdentifier>{ad1c0768-0038-4b85-afa4-0a150b809fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\DevicePage\InstrumentInfo">
+      <UniqueIdentifier>{1eefb4b6-4c94-497e-9035-ba59d2dfc165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\CommonDialog">
+      <UniqueIdentifier>{ee2087b6-fbd8-4b76-8199-f5763beb34e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\CommonDialog\ProgressDialog">
+      <UniqueIdentifier>{8e46d42b-b94d-4b37-a5c8-652c6a86386f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulate DataBase">
+      <UniqueIdentifier>{26bc7f4d-1b02-4b84-a03d-cb1f4b7fe931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulate DataBase\UrielDatabase">
+      <UniqueIdentifier>{0295c459-8c3a-4f6a-a8d2-713e6d6e8555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulate DataBase\MySQLDatabase">
+      <UniqueIdentifier>{8b6f07d2-1162-41d6-b6e2-faf33004c66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\DevicePage\InstrumentBorrowReturn">
+      <UniqueIdentifier>{fa126068-5302-4d0f-a082-f14df9124e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\DevicePage\InstrumentBorrowReturnHistory">
+      <UniqueIdentifier>{59f856a6-a8de-42c0-ae7c-834467897e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\InstrumentBorrowReturnHistoryTableModel">
+      <UniqueIdentifier>{0f031985-6d42-42cb-abbf-2a57c9c5709a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\UrielCheckInTableModel">
+      <UniqueIdentifier>{7b5f0f8b-7d83-46a6-83fa-53aa569cf213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\CommonDialog\InformationDialog">
+      <UniqueIdentifier>{cd2bbaf8-2f7f-4830-bcb4-9fa7f46fd237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\CommonDialog\CriticalDialog">
+      <UniqueIdentifier>{7df193a8-5728-4bd0-853a-a1c3d8d0f413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\CommonDialog\UrielImageViewer">
+      <UniqueIdentifier>{b88d5962-7ffe-4092-a319-dd55bd95f331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\CommonDialog\InputDialog">
+      <UniqueIdentifier>{e1e0599a-c168-4b99-8b95-b75a50c27499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\InvoiceTableModel">
+      <UniqueIdentifier>{1c95093c-5406-45cf-afea-430d2ff321a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulate File\NetworkAccessManager">
+      <UniqueIdentifier>{1bf76412-e7bb-4fbe-acc6-c114180588c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\Expense\ReimbursementStatistics">
+      <UniqueIdentifier>{c8f70e3a-9adb-41cf-b7c0-216d80a5f113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\CommonDialog\UrielPieCharts">
+      <UniqueIdentifier>{16b5cee5-1ea7-49be-a7a7-3382d312a9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\UserCountModel">
+      <UniqueIdentifier>{7fef1779-02eb-44c2-9dfa-f6db9ef03dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\LeaveInfoTableModel">
+      <UniqueIdentifier>{226f3908-d2d2-4fd4-b4f7-e269549f7b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\LoginTableModel">
+      <UniqueIdentifier>{4bcd9ee2-cec6-4c2b-b160-3118dcb75b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\TodoPage">
+      <UniqueIdentifier>{602b8621-3aa9-4729-9171-d1bbe115a148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\TodoPage\MaterialPurchaseApplyTable">
+      <UniqueIdentifier>{bb1ca84e-84a3-49e8-9f10-1af93e8085f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\MaterialPurchaseApplyTableModel">
+      <UniqueIdentifier>{8b5ea0bf-e5aa-4049-aec4-02603612f8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\CommonDialog\LiftingProhibitionDialog">
+      <UniqueIdentifier>{101e1361-6af6-49f5-9515-277ab7a75e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\Expense\SmallInvoice">
+      <UniqueIdentifier>{40cae4a6-6f88-4a05-9bbc-0d6b4b61a016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\ResourcePage">
+      <UniqueIdentifier>{8e7aef1a-a7fc-48bb-982b-02caca35d852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\ResourcePage\ReportTableView">
+      <UniqueIdentifier>{7658222f-54b3-408a-a7e6-89ea32fe157c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\MeetingReportTableModel">
+      <UniqueIdentifier>{b827c9bb-8f87-4f5b-b39f-a22a02ab45ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\ResourcePage\AcademicConferenceInfo">
+      <UniqueIdentifier>{921d8d39-4b52-4b41-b57d-4b853c2e66a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\ResourcePage\PaperInfo">
+      <UniqueIdentifier>{a8826e60-dc78-441f-884d-80260c18e29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\ResourcePage\PatentInfo">
+      <UniqueIdentifier>{8278ac0a-ceb6-42ab-8ea6-cc8677c1ee85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\ResourcePage\WorksInfo">
+      <UniqueIdentifier>{4af579cc-8cee-4d79-858e-9eeef08944e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical User Interface\ResourcePage\ResearchProject">
+      <UniqueIdentifier>{4bb53585-37e9-4e3a-9223-95fc9eeb194f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\PaperTableModel">
+      <UniqueIdentifier>{f608d9d5-0d5f-4e87-a2c8-3b6ceeb3e858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\AcademicConferenceTableModel">
+      <UniqueIdentifier>{ff3e19b0-37e7-4ad7-bdf5-db7f9d31447b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\PatentTableModel">
+      <UniqueIdentifier>{477ca87a-4a45-40eb-a49d-c9d7ca988cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\WorksTableModel">
+      <UniqueIdentifier>{a21d218b-f34b-4f2f-9a16-0a411eb35145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Model\ResearchProjectTableModel">
+      <UniqueIdentifier>{8c1ca1d4-81f4-474c-acae-005a4424d698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutoUpdater">
+      <UniqueIdentifier>{04489815-5e6b-4f81-aa00-c5e596d3fb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutoUpdater\Source">
+      <UniqueIdentifier>{060a0610-ee44-4a56-b4a6-daa1ea6f1623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Libraries\UrielSTMPEmail">
+      <UniqueIdentifier>{c79b1a0c-0995-4513-ab6c-0d3d5da6841a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Libraries\UrielSTMPEmail\LibSources">
+      <UniqueIdentifier>{22de8a0d-71ba-4627-b3cb-72a1ac1eeec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UrielDeEncryptionKit">
+      <UniqueIdentifier>{b36a70e4-f172-4b13-a3ea-66e61f35dc36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UrielQtFramework.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UrielQtFramework.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_UrielQtFramework.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UrielQtFramework.cpp">
+      <Filter>Graphical User Interface\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Program Entry Point</Filter>
+    </ClCompile>
+    <ClCompile Include="UrielQtFrameworkOptions\UrielQtFrameworkOptions.cpp">
+      <Filter>Option Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Login.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Login.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Login\Login.cpp">
+      <Filter>Graphical User Interface\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserRegisterFirstStep.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserRegisterFirstStep.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterFirstStep\UserRegisterFirstStep.cpp">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterFirstStep</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserRegisterSecondStep.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserRegisterSecondStep.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterSecondStep\UserRegisterSecondStep.cpp">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterSecondStep</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserRegisterThirdStep.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserRegisterThirdStep.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterThirdStep\UserRegisterThirdStep.cpp">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterThirdStep</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserRegisterLastStep.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserRegisterLastStep.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterLastStep\UserRegisterLastStep.cpp">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterLastStep</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InvoiceInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InvoiceInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\InvoiceInfo\InvoiceInfo.cpp">
+      <Filter>Graphical User Interface\Expense\InvoiceInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CashPaymentCertificate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CashPaymentCertificate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\CashPaymentCertificate\CashPaymentCertificate.cpp">
+      <Filter>Graphical User Interface\Expense\Cash Payment Certificate</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TravelExpenseApproval.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TravelExpenseApproval.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\TravelExpenseApproval\TravelExpenseApproval.cpp">
+      <Filter>Graphical User Interface\Expense\Travel Expense Approval</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ExpenseItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ExpenseItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\ExpenseItem\ExpenseItem.cpp">
+      <Filter>Graphical User Interface\Expense\ExpenseItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ReleasingNotices.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ReleasingNotices.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\ReleasingNotices\ReleasingNotices.cpp">
+      <Filter>Graphical User Interface\HomePage\ReleasingNotices</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NoticesListMenuItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NoticesListMenuItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\NoticesListMenuItem\NoticesListMenuItem.cpp">
+      <Filter>Graphical User Interface\HomePage\NoticesListMenuItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TimeFilter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TimeFilter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\TimeFilter\TimeFilter.cpp">
+      <Filter>Graphical User Interface\HomePage\TimeFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\NoticesMenuTreeModel\NoticesMenuTreeModel.cpp">
+      <Filter>Custom Model\NoticesMenuTreeModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\NoticesMenuTreeModel\NoticesMenuTreeItem.cpp">
+      <Filter>Custom Model\NoticesMenuTreeModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NoticesMenuTreeModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NoticesMenuTreeModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\NoticesMenuTableModel\NoticesMenuTableModel.cpp">
+      <Filter>Custom Model\NoticesMenuTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NoticesMenuTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NoticesMenuTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\NoticesMenuTableModel\NoticesMenuTableItemDelegate.cpp">
+      <Filter>Custom Model\NoticesMenuTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielFileTransfer\FTP\UrielFTP.cpp">
+      <Filter>Manipulate File\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UrielFTP.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UrielFTP.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NoticesCommentItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NoticesCommentItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\NoticesCommentItem\NoticesCommentItem.cpp">
+      <Filter>Graphical User Interface\HomePage\NoticesCommentItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserInfo\UserInfo.cpp">
+      <Filter>Graphical User Interface\UserInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InstrumentTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InstrumentTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\InstrumentTableModel\InstrumentTableModel.cpp">
+      <Filter>Custom Model\InstrumentTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InstrumentInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InstrumentInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentInfo\InstrumentInfo.cpp">
+      <Filter>Graphical User Interface\DevicePage\InstrumentInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProgressDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProgressDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\ProgressDialog\ProgressDialog.cpp">
+      <Filter>Graphical User Interface\CommonDialog\ProgressDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InstrumentBorrowReturn.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InstrumentBorrowReturn.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentBorrowReturn\InstrumentBorrowReturn.cpp">
+      <Filter>Graphical User Interface\DevicePage\InstrumentBorrowReturn</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InstrumentBorrowReturnHistory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InstrumentBorrowReturnHistory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentBorrowReturnHistory\InstrumentBorrowReturnHistory.cpp">
+      <Filter>Graphical User Interface\DevicePage\InstrumentBorrowReturnHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="UrielModel\InstrumentBorrowReturnHistoryTableModel\InstrumentBRHistoryTableModel.cpp">
+      <Filter>Custom Model\InstrumentBorrowReturnHistoryTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InstrumentBRHistoryTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InstrumentBRHistoryTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\CheckInTableModel\CheckInTableModel.cpp">
+      <Filter>Custom Model\UrielCheckInTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CheckInTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CheckInTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InformationDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InformationDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\InformationDialog\InformationDialog.cpp">
+      <Filter>Graphical User Interface\CommonDialog\InformationDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CriticalDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CriticalDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\CriticalDialog\CriticalDialog.cpp">
+      <Filter>Graphical User Interface\CommonDialog\CriticalDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UrielImageViewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UrielImageViewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\UrielImageViewer\UrielImageViewer.cpp">
+      <Filter>Graphical User Interface\CommonDialog\UrielImageViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InputDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InputDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\InputDialog\InputDialog.cpp">
+      <Filter>Graphical User Interface\CommonDialog\InputDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\InvoiceTableModel\InvoiceTableModel.cpp">
+      <Filter>Custom Model\InvoiceTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InvoiceTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InvoiceTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielFileTransfer\NetworkAccessManager\UrielNetworkAccessManager.cpp">
+      <Filter>Manipulate File\NetworkAccessManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UrielNetworkAccessManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UrielNetworkAccessManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ReimbursementStatistics.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ReimbursementStatistics.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\ReimbursementStatistics\ReimbursementStatistics.cpp">
+      <Filter>Graphical User Interface\Expense\ReimbursementStatistics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\UrielPieCharts\donutbreakdownchart.cpp">
+      <Filter>Graphical User Interface\CommonDialog\UrielPieCharts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\UrielPieCharts\mainslice.cpp">
+      <Filter>Graphical User Interface\CommonDialog\UrielPieCharts</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainslice.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainslice.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\UserCountTableModel\UserCountTableModel.cpp">
+      <Filter>Custom Model\UserCountModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserCountTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserCountTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\LeaveInfoTableModel\LeaveInfoTableModel.cpp">
+      <Filter>Custom Model\LeaveInfoTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LeaveInfoTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LeaveInfoTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\LoginTableModel\LoginTableModel.cpp">
+      <Filter>Custom Model\LoginTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LoginTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LoginTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MaterialPurchaseApplyTable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MaterialPurchaseApplyTable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\TodoPage\MaterialPurchaseApplyTable\MaterialPurchaseApplyTable.cpp">
+      <Filter>Graphical User Interface\TodoPage\MaterialPurchaseApplyTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\MaterialPurchaseApplyTableModel\MaterialPurchaseApplyTableModel.cpp">
+      <Filter>Custom Model\MaterialPurchaseApplyTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MaterialPurchaseApplyTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MaterialPurchaseApplyTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\LiftingProhibitionDialog\LiftingProhibitionDialog.cpp">
+      <Filter>Graphical User Interface\CommonDialog\LiftingProhibitionDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LiftingProhibitionDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LiftingProhibitionDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SmallInvoice.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SmallInvoice.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\SmallInvoice\SmallInvoice.cpp">
+      <Filter>Graphical User Interface\Expense\SmallInvoice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\MeetingReportTableModel\MeetingReportTableModel.cpp">
+      <Filter>Custom Model\MeetingReportTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MeetingReportTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MeetingReportTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\ReportTableView\ReportTableView.cpp">
+      <Filter>Graphical User Interface\ResourcePage\ReportTableView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ReportTableView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ReportTableView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PaperInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PaperInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\PaperInfo\PaperInfo.cpp">
+      <Filter>Graphical User Interface\ResourcePage\PaperInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AcademicConferenceInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AcademicConferenceInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\AcademicConferenceInfo\AcademicConferenceInfo.cpp">
+      <Filter>Graphical User Interface\ResourcePage\AcademicConferenceInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PatentInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PatentInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\PatentInfo\PatentInfo.cpp">
+      <Filter>Graphical User Interface\ResourcePage\PatentInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WorksInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WorksInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\WorksInfo\WorksInfo.cpp">
+      <Filter>Graphical User Interface\ResourcePage\WorksInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ResearchProject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ResearchProject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\ResearchProject\ResearchProject.cpp">
+      <Filter>Graphical User Interface\ResourcePage\ResearchProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\PaperTableModel\PaperTableModel.cpp">
+      <Filter>Custom Model\PaperTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PaperTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PaperTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\AcademicConferenceTableModel\AcademicConferenceTableModel.cpp">
+      <Filter>Custom Model\AcademicConferenceTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AcademicConferenceTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AcademicConferenceTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielDatabase\UrielDatabase.cpp">
+      <Filter>Manipulate DataBase\UrielDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\PatentTableModel\PatentTableModel.cpp">
+      <Filter>Custom Model\PatentTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PatentTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PatentTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\WorksTableModel\WorksTableModel.cpp">
+      <Filter>Custom Model\WorksTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WorksTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WorksTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\ResearchProjectTableModel\ResearchProjectTableModel.cpp">
+      <Filter>Custom Model\ResearchProjectTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ResearchProjectTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ResearchProjectTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QSimpleUpdater.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QSimpleUpdater.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Downloader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Downloader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Updater.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Updater.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\src\Downloader.cpp">
+      <Filter>AutoUpdater\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\src\QSimpleUpdater.cpp">
+      <Filter>AutoUpdater\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\src\Updater.cpp">
+      <Filter>AutoUpdater\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\UrielUpdater\UrielUpdater.cpp">
+      <Filter>AutoUpdater</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UrielUpdater.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UrielUpdater.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielSMTPEmail\UrielSMTPEmail.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_emailaddress.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_emailaddress.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mimeattachment.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mimeattachment.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mimecontentformatter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mimecontentformatter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mimefile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mimefile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mimehtml.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mimehtml.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mimemultipart.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mimemultipart.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mimepart.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mimepart.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quotedprintable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quotedprintable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_smtpclient.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_smtpclient.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\emailaddress.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimeattachment.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimecontentformatter.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimefile.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimehtml.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimeinlinefile.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimemessage.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimemultipart.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimepart.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimetext.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\quotedprintable.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\smtpclient.cpp">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielDeEncryptionKit\UrielDeEncryptionKit.cpp">
+      <Filter>UrielDeEncryptionKit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="UrielQtFramework.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UrielQtFramework.ui">
+      <Filter>Graphical User Interface\MainWindow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UrielQtFramework.h">
+      <Filter>Graphical User Interface\MainWindow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Login\Login.ui">
+      <Filter>Graphical User Interface\Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Login\Login.h">
+      <Filter>Graphical User Interface\Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterFirstStep\UserRegisterFirstStep.ui">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterFirstStep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterFirstStep\UserRegisterFirstStep.h">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterFirstStep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterSecondStep\UserRegisterSecondStep.ui">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterSecondStep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterSecondStep\UserRegisterSecondStep.h">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterSecondStep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterThirdStep\UserRegisterThirdStep.h">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterThirdStep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterThirdStep\UserRegisterThirdStep.ui">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterThirdStep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterLastStep\UserRegisterLastStep.ui">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterLastStep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserRegister\UserRegisterLastStep\UserRegisterLastStep.h">
+      <Filter>Graphical User Interface\New User Registration\UserRegisterLastStep</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\InvoiceInfo\InvoiceInfo.ui">
+      <Filter>Graphical User Interface\Expense\InvoiceInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\InvoiceInfo\InvoiceInfo.h">
+      <Filter>Graphical User Interface\Expense\InvoiceInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\CashPaymentCertificate\CashPaymentCertificate.ui">
+      <Filter>Graphical User Interface\Expense\Cash Payment Certificate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\CashPaymentCertificate\CashPaymentCertificate.h">
+      <Filter>Graphical User Interface\Expense\Cash Payment Certificate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\TravelExpenseApproval\TravelExpenseApproval.ui">
+      <Filter>Graphical User Interface\Expense\Travel Expense Approval</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\TravelExpenseApproval\TravelExpenseApproval.h">
+      <Filter>Graphical User Interface\Expense\Travel Expense Approval</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\ExpenseItem\ExpenseItem.ui">
+      <Filter>Graphical User Interface\Expense\ExpenseItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\ExpenseItem\ExpenseItem.h">
+      <Filter>Graphical User Interface\Expense\ExpenseItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\ReleasingNotices\ReleasingNotices.ui">
+      <Filter>Graphical User Interface\HomePage\ReleasingNotices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\ReleasingNotices\ReleasingNotices.h">
+      <Filter>Graphical User Interface\HomePage\ReleasingNotices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\NoticesListMenuItem\NoticesListMenuItem.ui">
+      <Filter>Graphical User Interface\HomePage\NoticesListMenuItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\NoticesListMenuItem\NoticesListMenuItem.h">
+      <Filter>Graphical User Interface\HomePage\NoticesListMenuItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\TimeFilter\TimeFilter.ui">
+      <Filter>Graphical User Interface\HomePage\TimeFilter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\TimeFilter\TimeFilter.h">
+      <Filter>Graphical User Interface\HomePage\TimeFilter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\NoticesMenuTreeModel\NoticesMenuTreeModel.h">
+      <Filter>Custom Model\NoticesMenuTreeModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\NoticesMenuTableModel\NoticesMenuTableModel.h">
+      <Filter>Custom Model\NoticesMenuTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielFileTransfer\FTP\UrielFTP.h">
+      <Filter>Manipulate File\FTP</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\NoticesCommentItem\NoticesCommentItem.ui">
+      <Filter>Graphical User Interface\HomePage\NoticesCommentItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\HomePage\NoticesCommentItem\NoticesCommentItem.h">
+      <Filter>Graphical User Interface\HomePage\NoticesCommentItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserInfo\UserInfo.ui">
+      <Filter>Graphical User Interface\UserInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\UserInfo\UserInfo.h">
+      <Filter>Graphical User Interface\UserInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\InstrumentTableModel\InstrumentTableModel.h">
+      <Filter>Custom Model\InstrumentTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentInfo\InstrumentInfo.ui">
+      <Filter>Graphical User Interface\DevicePage\InstrumentInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentInfo\InstrumentInfo.h">
+      <Filter>Graphical User Interface\DevicePage\InstrumentInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\ProgressDialog\ProgressDialog.ui">
+      <Filter>Graphical User Interface\CommonDialog\ProgressDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\ProgressDialog\ProgressDialog.h">
+      <Filter>Graphical User Interface\CommonDialog\ProgressDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentBorrowReturn\InstrumentBorrowReturn.ui">
+      <Filter>Graphical User Interface\DevicePage\InstrumentBorrowReturn</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentBorrowReturn\InstrumentBorrowReturn.h">
+      <Filter>Graphical User Interface\DevicePage\InstrumentBorrowReturn</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentBorrowReturnHistory\InstrumentBorrowReturnHistory.ui">
+      <Filter>Graphical User Interface\DevicePage\InstrumentBorrowReturnHistory</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\DevicePage\InstrumentBorrowReturnHistory\InstrumentBorrowReturnHistory.h">
+      <Filter>Graphical User Interface\DevicePage\InstrumentBorrowReturnHistory</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UrielModel\InstrumentBorrowReturnHistoryTableModel\InstrumentBRHistoryTableModel.h">
+      <Filter>Custom Model\InstrumentBorrowReturnHistoryTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\CheckInTableModel\CheckInTableModel.h">
+      <Filter>Custom Model\UrielCheckInTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\InformationDialog\InformationDialog.ui">
+      <Filter>Graphical User Interface\CommonDialog\InformationDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\InformationDialog\InformationDialog.h">
+      <Filter>Graphical User Interface\CommonDialog\InformationDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\CriticalDialog\CriticalDialog.ui">
+      <Filter>Graphical User Interface\CommonDialog\CriticalDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\CriticalDialog\CriticalDialog.h">
+      <Filter>Graphical User Interface\CommonDialog\CriticalDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\UrielImageViewer\UrielImageViewer.ui">
+      <Filter>Graphical User Interface\CommonDialog\UrielImageViewer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\UrielImageViewer\UrielImageViewer.h">
+      <Filter>Graphical User Interface\CommonDialog\UrielImageViewer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\InputDialog\InputDialog.ui">
+      <Filter>Graphical User Interface\CommonDialog\InputDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\InputDialog\InputDialog.h">
+      <Filter>Graphical User Interface\CommonDialog\InputDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\InvoiceTableModel\InvoiceTableModel.h">
+      <Filter>Custom Model\InvoiceTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielFileTransfer\NetworkAccessManager\UrielNetworkAccessManager.h">
+      <Filter>Manipulate File\NetworkAccessManager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\ReimbursementStatistics\ReimbursementStatistics.ui">
+      <Filter>Graphical User Interface\Expense\ReimbursementStatistics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\ReimbursementStatistics\ReimbursementStatistics.h">
+      <Filter>Graphical User Interface\Expense\ReimbursementStatistics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\UrielPieCharts\mainslice.h">
+      <Filter>Graphical User Interface\CommonDialog\UrielPieCharts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\UserCountTableModel\UserCountTableModel.h">
+      <Filter>Custom Model\UserCountModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\LeaveInfoTableModel\LeaveInfoTableModel.h">
+      <Filter>Custom Model\LeaveInfoTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\LoginTableModel\LoginTableModel.h">
+      <Filter>Custom Model\LoginTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\TodoPage\MaterialPurchaseApplyTable\MaterialPurchaseApplyTable.h">
+      <Filter>Graphical User Interface\TodoPage\MaterialPurchaseApplyTable</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\TodoPage\MaterialPurchaseApplyTable\MaterialPurchaseApplyTable.ui">
+      <Filter>Graphical User Interface\TodoPage\MaterialPurchaseApplyTable</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\MaterialPurchaseApplyTableModel\MaterialPurchaseApplyTableModel.h">
+      <Filter>Custom Model\MaterialPurchaseApplyTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\LiftingProhibitionDialog\LiftingProhibitionDialog.h">
+      <Filter>Graphical User Interface\CommonDialog\LiftingProhibitionDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\LiftingProhibitionDialog\LiftingProhibitionDialog.ui">
+      <Filter>Graphical User Interface\CommonDialog\LiftingProhibitionDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\SmallInvoice\SmallInvoice.ui">
+      <Filter>Graphical User Interface\Expense\SmallInvoice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\Expense\SmallInvoice\SmallInvoice.h">
+      <Filter>Graphical User Interface\Expense\SmallInvoice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\MeetingReportTableModel\MeetingReportTableModel.h">
+      <Filter>Custom Model\MeetingReportTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\ReportTableView\ReportTableView.h">
+      <Filter>Graphical User Interface\ResourcePage\ReportTableView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\PaperInfo\PaperInfo.ui">
+      <Filter>Graphical User Interface\ResourcePage\PaperInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\PaperInfo\PaperInfo.h">
+      <Filter>Graphical User Interface\ResourcePage\PaperInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\AcademicConferenceInfo\AcademicConferenceInfo.ui">
+      <Filter>Graphical User Interface\ResourcePage\AcademicConferenceInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\AcademicConferenceInfo\AcademicConferenceInfo.h">
+      <Filter>Graphical User Interface\ResourcePage\AcademicConferenceInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\PatentInfo\PatentInfo.ui">
+      <Filter>Graphical User Interface\ResourcePage\PatentInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\PatentInfo\PatentInfo.h">
+      <Filter>Graphical User Interface\ResourcePage\PatentInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\WorksInfo\WorksInfo.ui">
+      <Filter>Graphical User Interface\ResourcePage\WorksInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\WorksInfo\WorksInfo.h">
+      <Filter>Graphical User Interface\ResourcePage\WorksInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\ResearchProject\ResearchProject.ui">
+      <Filter>Graphical User Interface\ResourcePage\ResearchProject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\ResourcePage\ResearchProject\ResearchProject.h">
+      <Filter>Graphical User Interface\ResourcePage\ResearchProject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\PaperTableModel\PaperTableModel.h">
+      <Filter>Custom Model\PaperTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\AcademicConferenceTableModel\AcademicConferenceTableModel.h">
+      <Filter>Custom Model\AcademicConferenceTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\PatentTableModel\PatentTableModel.h">
+      <Filter>Custom Model\PatentTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\WorksTableModel\WorksTableModel.h">
+      <Filter>Custom Model\WorksTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\ResearchProjectTableModel\ResearchProjectTableModel.h">
+      <Filter>Custom Model\ResearchProjectTableModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\src\Downloader.h">
+      <Filter>AutoUpdater\Source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\src\Downloader.ui">
+      <Filter>AutoUpdater\Source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\include\QSimpleUpdater.h">
+      <Filter>AutoUpdater\Source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\src\Updater.h">
+      <Filter>AutoUpdater\Source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\UrielUpdater\UrielUpdater.h">
+      <Filter>AutoUpdater</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\QSimpleUpdater\UrielUpdater\UrielUpdater.ui">
+      <Filter>AutoUpdater</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielSMTPEmail\UrielSMTPEmail.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\emailaddress.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimeattachment.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimecontentformatter.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimefile.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimehtml.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimemultipart.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimepart.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\quotedprintable.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\smtpclient.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielDeEncryptionKit\UrielDeEncryptionKit.h">
+      <Filter>UrielDeEncryptionKit</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_UrielQtFramework.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UrielQtFrameworkOptions\UrielQtFrameworkOptions.h">
+      <Filter>Option Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielDefinition\UrielDefinition.h">
+      <Filter>Custom Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielDatabase\UrielDatabase.h">
+      <Filter>Manipulate DataBase\UrielDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Login.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UserRegisterFirstStep.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UserRegisterSecondStep.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UserRegisterThirdStep.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UserRegisterLastStep.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InvoiceInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CashPaymentCertificate.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TravelExpenseApproval.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ExpenseItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ReleasingNotices.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_NoticesListMenuItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TimeFilter.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\NoticesMenuTreeModel\NoticesMenuTreeItem.h">
+      <Filter>Custom Model\NoticesMenuTreeModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielModel\NoticesMenuTableModel\NoticesMenuTableItemDelegate.h">
+      <Filter>Custom Model\NoticesMenuTableModel</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_NoticesCommentItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UserInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InstrumentInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ProgressDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InstrumentBorrowReturn.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InstrumentBorrowReturnHistory.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InformationDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CriticalDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UrielImageViewer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InputDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ReimbursementStatistics.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielGui\CommonDialog\UrielPieCharts\donutbreakdownchart.h">
+      <Filter>Graphical User Interface\CommonDialog\UrielPieCharts</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MaterialPurchaseApplyTable.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LiftingProhibitionDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SmallInvoice.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PaperInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AcademicConferenceInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PatentInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_WorksInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ResearchProject.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Downloader.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UrielUpdater.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimeinlinefile.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimemessage.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\mimetext.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\smtpexports.h">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UrielFiles\iLabManagementSystem.txt">
+      <Filter>Manipulate DataBase\MySQLDatabase</Filter>
+    </None>
+    <None Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\ThirdPartyLibraries\SMTPEmail\SmtpMime">
+      <Filter>Third Party Libraries\UrielSTMPEmail\LibSources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\UrielQtFramework.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Jing.Woo%40outlook.com\MySyncFolder\UrielQtFramework\UrielQtFramework\Resources\applogo.ico" />
+  </ItemGroup>
+</Project>

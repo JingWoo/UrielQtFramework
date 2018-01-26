@@ -1,0 +1,4 @@
+Log file created at: 2017/06/29 18:54:35
+Running on machine: DESKTOP-URIEL
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0629 18:54:35.471846 37260 main.cpp:82] hello world
